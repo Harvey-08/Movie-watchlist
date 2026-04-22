@@ -77,14 +77,15 @@ const Watchlist = () => {
             No movies match your current filter. Clear it to see all movies.
           </p>
         ) : (
-          <div>
+          <div className="flex flex-col items-center justify-center text-center">
             <h2 className="no-movies">
               There are no movies in your watchlist!
             </h2>
-            <p>
-              Click <Link to="/add">here</Link> to search and add movies to the
-              watchlist.
-            </p>
+            <div className="mt-8">
+              <Link to="/" className="btn">
+                Search Movies
+              </Link>
+            </div>
           </div>
         )}
       </div>

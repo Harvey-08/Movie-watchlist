@@ -86,7 +86,7 @@ const Watched = () => {
                 journey and ratings.
               </p>
               <Link className="btn" to="/">
-                Back to Watchlist
+                Search Movies
               </Link>
             </div>
             <div className="hero-visual popcorn">
