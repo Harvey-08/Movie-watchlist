@@ -79,10 +79,10 @@ const Watched = () => {
         ) : (
           <div className="hero-empty-card alt">
             <div className="hero-content">
-              <p className="eyebrow">Track progress</p>
-              <h2>Nothing marked watched… yet</h2>
+              <p className="eyebrow">Track your progress</p>
+              <h2>Nothing marked as watched yet…</h2>
               <p>
-                Move titles over once you finish them to keep tabs on your movie
+                Move titles here once you finish them to keep track of your movie
                 journey and ratings.
               </p>
               <Link className="btn" to="/">
