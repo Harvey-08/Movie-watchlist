@@ -31,7 +31,7 @@ A modern, feature-rich movie watchlist application built with React and powered 
 
 ```
 Movie-Watchlist/
-├── public/                  # Static assets (images, icons, manifest)
+├── public/                  # Static assets (images, icons)
 │   ├── hero.png             # Hero section image
 │   ├── hero-bg.png          # Hero background pattern
 │   ├── no-movie.png         # Fallback poster image
@@ -53,7 +53,7 @@ Movie-Watchlist/
 │   ├── lib/                 # Font Awesome (self-hosted)
 │   ├── App.jsx              # Root component with routing
 │   ├── App.css              # Global styles and component CSS
-│   └── index.jsx            # App entry point
+│   └── main.jsx            # App entry point
 ├── index.html               # HTML entry point
 ├── vite.config.js           # Vite configuration
 └── package.json             # Dependencies and scripts
